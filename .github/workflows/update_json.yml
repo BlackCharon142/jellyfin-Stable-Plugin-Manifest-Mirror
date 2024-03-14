@@ -1,0 +1,23 @@
+name: Update JSON
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # This will run the job every hour
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Fetch data
+        run: |
+          curl -o manifest-stable.json https://blr1.mirror.jellyfin.org/files/plugin/manifest-stable.json
+      - name: Commit and push if it changed
+        run: |
+          git config user.name "BlackCharon142"
+          git config user.email "alirezajavdan142@yahoo.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Automated JSON update: ${timestamp}" || exit 0
+          git push
