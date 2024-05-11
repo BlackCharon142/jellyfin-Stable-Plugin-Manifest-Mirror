@@ -83,6 +83,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-fanart.png",
         "versions": [
             {
+                "version": "11.0.0.0",
+                "changelog": "- 10.9 (#47) @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/fanart/fanart_11.0.0.0.zip",
+                "checksum": "2d38d1b5e02ab36876136ae8f61d99f5",
+                "timestamp": "2024-05-11T19:35:38Z"
+            },
+            {
                 "version": "10.0.0.0",
                 "changelog": "- chore(deps): update dependency microsoft.extensions.http to v6 (#41) @renovate\n\n### Bug Fixes ###\n- fix tv series no data (#38) @kdays\n\n### CI & build changes ###\n- fix: meta ci workflows (#39) @h1dden-da3m0n",
                 "targetAbi": "10.8.0.0",
@@ -142,6 +150,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-imvdb.png",
         "versions": [
             {
+                "version": "4.0.0.0",
+                "changelog": "- 10.9 (#21) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#20) @methbkts\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#16) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#14) @h1dden-da3m0n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/imvdb/imvdb_4.0.0.0.zip",
+                "checksum": "750393a6d618f6b7ac329fb3fb0753b4",
+                "timestamp": "2024-05-11T19:35:00Z"
+            },
+            {
                 "version": "3.0.0.0",
                 "changelog": "- Use meta ci (#8) @crobibero\n\n### Code or Repo Maintenance ###\n- 10.8 support (#11) @crobibero",
                 "targetAbi": "10.8.0.0",
@@ -160,6 +176,14 @@
         "category": "General",
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-kodisyncqueue.png",
         "versions": [
+            {
+                "version": "10.0.0.0",
+                "changelog": "- 10.9 (#82) @crobibero\n\n### New features and improvements ###\n- Implement IDisposable (#75) @crobibero\n\n### Documentation updates ###\n- Fix openapi generation issues (#81) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency litedb to v5.0.19 (#78) @renovate",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/kodi-sync-queue/kodi-sync-queue_10.0.0.0.zip",
+                "checksum": "85feb6ea40568e59cfd6f2e6ec72082d",
+                "timestamp": "2024-05-11T19:43:58Z"
+            },
             {
                 "version": "9.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Fix the scheduled task section name (part of #71) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Cleanup logging and naming (#71) @Shadowghost\n\n### Dependency updates ###\n- Upgrades LiteDB to v5 (part of #71) @Shadowghost\n\n### CI & build changes ###\n- fix: meta ci workflows (#68) @h1dden-da3m0n",
@@ -445,6 +469,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-playbackreporting.png",
         "versions": [
             {
+                "version": "14.0.0.0",
+                "changelog": "- 10.9 (#82) @crobibero\n\n### New features and improvements ###\n- Order default query usefully & checkbox by default (#66) @michaelkrieger\n\n### Bug Fixes ###\n- Fix DirectoryBrowser (#76) @MBR-0001",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/playback-reporting/playback-reporting_14.0.0.0.zip",
+                "checksum": "44152a3b26154fa8a9bc9c94ee6574e6",
+                "timestamp": "2024-05-11T19:34:26Z"
+            },
+            {
                 "version": "13.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Added support for decimal timezones (#64) @theKAKAN\n- Keep all avatars the same dimension (#62) @sambartik\n\n### CI & build changes ###\n- fix: meta ci workflows (#60) @h1dden-da3m0n",
                 "targetAbi": "10.8.1.0",
@@ -512,6 +544,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-reports.png",
         "versions": [
             {
+                "version": "16.0.0.0",
+                "changelog": "- 10.9 (#82) @crobibero\n\n### New features and improvements ###\n- Add XLSX Excel As Export Option (#74) @mwildgoose\n\n### Dependency updates ###\n- chore(deps): update dependency closedxml to v0.97.0 (#76) @renovate",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/reports/reports_16.0.0.0.zip",
+                "checksum": "8f97501398dca6b7f7e9fd5147d67850",
+                "timestamp": "2024-05-11T19:34:15Z"
+            },
+            {
                 "version": "15.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Fix CSV Export Format (#73) @mwildgoose\n\n### Code or Repo Maintenance ###\n- Use meta ci (#66) @crobibero\n- Performance improvements (#59) @Bond-009\n- Style fixes, enable analysis and nullable (#57) @Bond-009\n\n### CI & build changes ###\n- fix: meta ci workflows (#68) @h1dden-da3m0n\n- Use meta ci (#66) @crobibero",
                 "targetAbi": "10.8.1.0",
@@ -570,6 +610,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "11.0.0.0",
+                "changelog": "- 10.9 (#79) @crobibero\n\n### Bug Fixes ###\n- Only add primary versions to collections (#69) @lordwelch\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#77) @methbkts\n\n### CI & build changes ###\n- fix: meta ci workflows (#70) @h1dden-da3m0n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/tmdb-box-sets/tmdb-box-sets_11.0.0.0.zip",
+                "checksum": "fa6d4b4d90375535502987bd326bedc5",
+                "timestamp": "2024-05-11T19:34:33Z"
+            },
+            {
                 "version": "10.0.0.0",
                 "changelog": "- chore(deps): bump release-drafter/release-drafter from 5.15.0 to 5.17.6 (#59) @dependabot\n\n### Code or Repo Maintenance ###\n- 10.8 support (#68) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#67) @crobibero",
                 "targetAbi": "10.8.0.0",
@@ -620,6 +668,14 @@
         "category": "General",
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-trakt.png",
         "versions": [
+            {
+                "version": "25.0.0.0",
+                "changelog": "- 10.9 (#233) @crobibero\n\n### Dependency updates ###\n- Update dependency StyleCop.Analyzers to v1.2.0-beta.556 (#214) @renovate",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/trakt/trakt_25.0.0.0.zip",
+                "checksum": "7d48cd4ef9af7e4de5f7a8613a19cd38",
+                "timestamp": "2024-05-11T19:34:21Z"
+            },
             {
                 "version": "24.0.0.0",
                 "changelog": "### New features and improvements ###\n- Use history api for importing episodes from trakt (#205) @h3llrais3r\n\n### Bug Fixes ###\n- Fix duplicate watched entries (#224) @buthed010203\n- Fix pagination when no items are present (#215) @kade-robertson\n\n### Code or Repo Maintenance ###\n- Code cleanup (#225) @crobibero\n\n### Documentation updates ###\n- Typo - Update trakt.html (#206) @Awolize\n- small correction to trakt.html (#202) @veloute",
@@ -886,6 +942,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-coverartarchive.png",
         "versions": [
             {
+                "version": "8.0.0.0",
+                "changelog": "- 10.9 (#35) @crobibero\n\n### Bug Fixes ###\n- Check if the Types is flagged as 'Front' (#33) @GaaH\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#34) @methbkts\n- Use meta ci (#27) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency metabrainz.common.json to v5.1.0 (#30) @renovate\n\n### CI & build changes ###\n- fix: ci bumps (#29) @h1dden-da3m0n\n- Use meta ci (#27) @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/cover-art-archive/cover-art-archive_8.0.0.0.zip",
+                "checksum": "306eca2d767c1995bcc2d724039dca04",
+                "timestamp": "2024-05-11T19:36:57Z"
+            },
+            {
                 "version": "7.0.0.0",
                 "changelog": "### Bug Fixes ###\n- fix client string (#19) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Fix readme (#20) @Shadowghost",
                 "targetAbi": "10.8.0.0",
@@ -1052,6 +1116,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anidb.png",
         "versions": [
             {
+                "version": "8.0.0.0",
+                "changelog": "- 10.9 (#64) @crobibero\n\n### New features and improvements ###\n- Make series.xml cache age user configurable (#44) @Scholars-Mate\n\n### Bug Fixes ###\n- Detect api errors and throw exception (#42) @nalsai\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#62) @methbkts",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/anidb/anidb_8.0.0.0.zip",
+                "checksum": "bc9683dd6fbe76c60d2e984e39873918",
+                "timestamp": "2024-05-11T19:36:21Z"
+            },
+            {
                 "version": "7.0.0.0",
                 "changelog": "### New features and improvements ###\n- Add AniDbExternalEpisodeId (#32) @Nalsai\n- Add support for \"Mahoutsukai\" and fix \"Gekijyouban\" (#31) @Nalsai\n\n### Bug Fixes ###\n- Fix automatically detecting Movies (#38) @Nalsai\n- Add support for \"Mahoutsukai\" and fix \"Gekijyouban\" (#31) @Nalsai\n\n### CI & build changes ###\n- fix: meta ci workflows (#35) @h1dden-da3m0n",
                 "targetAbi": "10.8.1.0",
@@ -1170,6 +1242,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anisearch.png",
         "versions": [
             {
+                "version": "5.0.0.0",
+                "changelog": "- 10.9 (#22) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#21) @methbkts\n- Use meta ci (#13) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency microsoft.extensions.http to v6 (#17) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#16) @h1dden-da3m0n\n- Use meta ci (#13) @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/anisearch/anisearch_5.0.0.0.zip",
+                "checksum": "e6870dc7d6256fbc343e5d5eff7e4056",
+                "timestamp": "2024-05-11T19:36:42Z"
+            },
+            {
                 "version": "4.0.0.0",
                 "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#7) @crobibero",
                 "targetAbi": "10.8.0.0",
@@ -1205,6 +1285,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-kitsu.png",
         "versions": [
             {
+                "version": "5.0.0.0",
+                "changelog": "- 10.9 (#29) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#26) @methbkts",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/kitsu/kitsu_5.0.0.0.zip",
+                "checksum": "4941f0939f3d4345e7f42fcbfe620d60",
+                "timestamp": "2024-05-11T19:36:19Z"
+            },
+            {
                 "version": "4.0.0.0",
                 "changelog": "### New features and improvements ###\n- Added Series/Episode Image Providers (#22) @pikami\n- Get episode metadata from seriesId+episodeNumber instead of provider episode id (#21) @pikami\n- Add support for identifying using kitsu id (#23) @pikami\n\n### Bug Fixes ###\n- Round community rating to single decimal place (#18) @pikami\n\n### CI & build changes ###\n- fix: meta ci workflows (#17) @h1dden-da3m0n\n- Use meta ci (#14) @crobibero",
                 "targetAbi": "10.8.0.0",
@@ -1239,6 +1327,14 @@
         "category": "Metadata",
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-tvmaze.png",
         "versions": [
+            {
+                "version": "11.0.0.0",
+                "changelog": "- 10.9 (#50) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#49) @methbkts\n- Use meta ci (#42) @crobibero\n\n### CI & build changes ###\n- fix: meta ci workflows (#44) @h1dden-da3m0n\n- Use meta ci (#42) @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/tvmaze/tvmaze_11.0.0.0.zip",
+                "checksum": "0295801c211760a2ea01bd2a7b9f1ff0",
+                "timestamp": "2024-05-11T19:36:43Z"
+            },
             {
                 "version": "10.0.0.0",
                 "changelog": "### Code or Repo Maintenance ###\n- Fix build (#36) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#33) @dependabot",
@@ -1414,6 +1510,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-opds.png",
         "versions": [
             {
+                "version": "5.0.0.0",
+                "changelog": "- 10.9 (#39) @crobibero\n\n### New features and improvements ###\n- Set Content-Disposition header when downloading book (#24) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#36) @methbkts\n- Minor update to include authenticated feeds. (#21) @adamshand\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#30) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#28) @h1dden-da3m0n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/opds/opds_5.0.0.0.zip",
+                "checksum": "7a69bd5f0221576dff14bbd352dcb87c",
+                "timestamp": "2024-05-11T19:35:40Z"
+            },
+            {
                 "version": "4.0.0.0",
                 "changelog": "### New features and improvements ###\n- Add WWW-Authenticate header to unauthorized response (#14) @crobibero\n- Add Favorites, RecentlyAdded (#12) @crobibero\n\n### CI & build changes ###\n- ci: migrate to centralized Plugin CI workflows (#15) @crobibero",
                 "targetAbi": "10.8.0.0",
@@ -1452,9 +1556,17 @@
         "name": "Session Cleaner",
         "description": "Removes old sessions (devices).\n",
         "overview": "Removes old sessions (devices).",
-        "owner": "crobibero",
+        "owner": "jellyfin",
         "category": "General",
         "versions": [
+            {
+                "version": "3.0.0.0",
+                "changelog": "- 10.9 (#19) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#17) @methbkts\n- chore(deps): bump StyleCop.Analyzers from 1.2.0-beta.406 to 1.2.0-beta.435 (#11) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump StyleCop.Analyzers from 1.2.0-beta.406 to 1.2.0-beta.435 (#11) @dependabot\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#14) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#12) @h1dden-da3m0n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/session-cleaner/session-cleaner_3.0.0.0.zip",
+                "checksum": "b8bcc8968b82d14745b37e968fb2dd7d",
+                "timestamp": "2024-05-11T19:36:44Z"
+            },
             {
                 "version": "2.0.0.0",
                 "changelog": "10.8 support\n",
@@ -1474,6 +1586,14 @@
         "category": "Metadata",
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-vgmdb.png",
         "versions": [
+            {
+                "version": "4.0.0.0",
+                "changelog": "- 10.9 (#23) @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/vgmdb/vgmdb_4.0.0.0.zip",
+                "checksum": "7b765ba1cd95ebbf262399fbac18878f",
+                "timestamp": "2024-05-11T19:36:32Z"
+            },
             {
                 "version": "3.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Fix double slash in API URL's causing the plugin to never work (#20) @nielsvanvelzen\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#15) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#13) @h1dden-da3m0n",
@@ -1500,6 +1620,14 @@
         "owner": "crobibero",
         "category": "General",
         "versions": [
+            {
+                "version": "5.0.0.0",
+                "changelog": "- 10.9 (#32) @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/simkl/simkl_5.0.0.0.zip",
+                "checksum": "9eba0e759fa543fd6a88e5f2f4b66275",
+                "timestamp": "2024-05-11T19:36:09Z"
+            },
             {
                 "version": "4.0.0.0",
                 "changelog": "### New features and improvements ###\n- fixed json case + added episode ids + empty response error (#25) @ekleop\n\n### Bug Fixes ###\n- fixed json case + added episode ids + empty response error (#25) @ekleop",
@@ -1579,5 +1707,23 @@
             }
         ],
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-discogs.png"
+    },
+    {
+        "guid": "7871d3b1-f1b9-4318-9c27-f35998ffbbcc",
+        "name": "Artwork",
+        "description": "Downloads artwork from a repository for various media types.\n",
+        "overview": "Download artwork",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "- 10.9 (#21) @crobibero\n- Use meta ci (#14) @crobibero\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#6) @dependabot\n- update ruleset (#7) @crobibero\n- 10.8 support (#4) @crobibero\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#2) @dependabot\n- Fix url image template (#1) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#19) @methbkts\n\n### CI & build changes ###\n- fix: meta ci workflows (#15) @h1dden-da3m0n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/artwork/artwork_1.0.0.0.zip",
+                "checksum": "4e7471e17995d57400d3041b4299703a",
+                "timestamp": "2024-05-11T19:35:04Z"
+            }
+        ]
     }
 ]
