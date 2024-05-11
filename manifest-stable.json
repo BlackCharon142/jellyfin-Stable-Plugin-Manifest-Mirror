@@ -8,6 +8,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "11.0.0.0",
+                "changelog": "- Unstable (#103) @crobibero\n- Improve cover image extraction from epub files (#102) @unfedorg\n\n### Dependency updates ###\n- Update dependency coverlet.collector to v6.0.2 (#101) @renovate\n- Update dependency coverlet.collector to v6.0.1 (#98) @renovate",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/bookshelf/bookshelf_11.0.0.0.zip",
+                "checksum": "923b0929a850b65d34615ea67c020630",
+                "timestamp": "2024-05-11T19:23:08Z"
+            },
+            {
                 "version": "10.0.0.0",
                 "changelog": "- Add Unit tests for ComicInfo and ComicBookInfo formats (#70) @carif\n\n### New features and improvements ###\n- Add Comic Vine metadata provider (#81) @Pithaya\n- Add Google Books external id (#80) @Pithaya\n- Add unit tests for the Google Books providers (#78) @Pithaya\n- Improve title handling of epub files (#75) @carif\n\n### Bug Fixes ###\n- Update EpubMetadataImageProvider.cs (#66) @wuyu8512\n\n### Documentation updates ###\n- Fix typo and improve README formatting (#74) @carif\n\n### Dependency updates ###\n- Update xunit-dotnet monorepo to v2.5.3 (#82) @renovate",
                 "targetAbi": "10.8.13.0",
@@ -204,6 +212,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-ldapauth.png",
         "versions": [
             {
+                "version": "19.0.0.0",
+                "changelog": "- Updates for 10.9 (#158) @crobibero\n\n### New features and improvements ###\n- Add profile image synchronization (#154) @SanseroGames",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/ldap-authentication/ldap-authentication_19.0.0.0.zip",
+                "checksum": "d9adecb7fce769d0094f09792d7d7033",
+                "timestamp": "2024-05-11T19:29:34Z"
+            },
+            {
                 "version": "18.0.0.0",
                 "changelog": "- Implement proper input sanitization to prevent LDAP injection attacks (#153) @tam1m\n\n### New features and improvements ###\n- Added  (#147) @sdimovv\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#150) @methbkts\n\n### Documentation updates ###\n- Fix \"build\" shields badge (#152) @Radiicall",
                 "targetAbi": "10.8.13.0",
@@ -347,12 +363,20 @@
     {
         "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
         "name": "Open Subtitles",
-        "description": "Download subtitles from the internet to use with your media files.",
+        "description": "Download subtitles from the internet to use with your media files. (Requires configuration)",
         "overview": "Download subtitles for your media",
         "owner": "jellyfin",
         "category": "Metadata",
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-opensubtitles.png",
         "versions": [
+            {
+                "version": "20.0.0.0",
+                "changelog": "- 10.9 (#145) @crobibero\n\n### Dependency updates ###\n- chore(deps): update xunit-dotnet monorepo (#117) @renovate",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/open-subtitles/open-subtitles_20.0.0.0.zip",
+                "checksum": "75ec03097d286fd33630552725ef5bb5",
+                "timestamp": "2024-05-11T19:23:04Z"
+            },
             {
                 "version": "19.0.0.0",
                 "changelog": "### New features and improvements ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n- Add handling for .strm files (#124) @MBR-0001\n\n### Bug Fixes ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n\n### CI & build changes ###\n- fix: meta ci workflows (#106) @h1dden-da3m0n",
@@ -929,6 +953,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-tvdb.png",
         "versions": [
             {
+                "version": "11.0.0.0",
+                "changelog": "- 10.9 (#134) @crobibero\n- Use ILocalizationManager instead of forming own country and iso6392 lists (#128) @scampower3\n- Don't retrieve tvdbId for episode if there is tvdbid already provided (#127) @scampower3\n- Prevent images with no language tag to have same priority as matched language (#126) @scampower3\n- Grab non alias name instead of first one that matches the language (#125) @scampower3\n- Fixes some cache key clashes and other improvements. (#123) @scampower3\n- Fixes some poorly named variables and label \"for\" tag fixes (#122) @scampower3\n- Remove required from the input for API key (#121) @scampower3\n- Add cache time configurations (#120) @scampower3\n- Add Caching for api calls (#118) @scampower3\n- Fix: Combine original titles for multi episode files (#117) @scampower3\n- Fixes issues retrieving episode metadata (#116) @scampower3\n- Improvements and fixes tvdb sdk 4.7.9.1 + PR #112 (#115) @BobSilent\n\n### Major features and improvements ###\n- Tvdb v4 migration (#93) @scampower3\n\n### New features and improvements ###\n- Feat: Add a polling task to check for update via the update api endpoint (#124) @scampower3\n\n### Bug Fixes ###\n- Update to Tvdb sdk 4.7.9.1 (#113) @scampower3\n- Fix duplicate entries Missing and not Missing (#106) @BobSilent\n- Fixes for tvdb v4 migration (#110) @BobSilent\n- Don't require user pin (#108) @crobibero\n\n### Code or Repo Maintenance ###\n- Make Tvdb Client usage more resilient and robust (#112) @BobSilent\n- Add the project's api key (#107) @crobibero\n- Update link to Jellyfin website (#103) @methbkts",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/thetvdb/thetvdb_11.0.0.0.zip",
+                "checksum": "42a42a1d50886556960e774083b75629",
+                "timestamp": "2024-05-11T19:29:00Z"
+            },
+            {
                 "version": "10.0.0.0",
                 "changelog": "- Reduce log noise (#85) @IDisposable\n- Enriched Logging with series name (#84) @JPVenson\n\n### New features and improvements ###\n- Combine Title and Overview of combined episodes. (#86) @haydenstith",
                 "targetAbi": "10.8.10.0",
@@ -1080,11 +1112,11 @@
         "versions": [
             {
                 "version": "7.0.0.0",
-                "changelog": "- Revert dotnet7 update (#46) @crobibero\n\n### New features and improvements ###\n- Optionally use the AnitomySharp library to extract media titles (#9) @MisterMcDuck\n- Change banner to backdrop (#37) @nielsvanvelzen\n\n### Bug Fixes ###\n- Filter out non-japanese VAs for romaji titles (#40) @rzk3\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#44) @methbkts\n- Use meta ci (#25) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dotnet monorepo to v7 (major) (#35) @renovate\n- chore(deps): update dependency microsoft.extensions.dependencyinjection to v6.0.0 (#30) @renovate\n- chore(deps): update dependency microsoft.extensions.http to v6 (#31) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#29) @h1dden-da3m0n\n- Use meta ci (#25) @crobibero",
-                "targetAbi": "10.8.12.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anilist/anilist_7.0.0.0.zip",
-                "checksum": "1c24a09ad615c9acad760574c1e21cfa",
-                "timestamp": "2023-11-10T02:31:13Z"
+                "changelog": "",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/anilist/anilist_7.0.0.0.zip",
+                "checksum": "9e89cf7a71a1abc1e8db324c5b0c57a7",
+                "timestamp": "2024-05-11T19:24:44Z"
             },
             {
                 "version": "6.0.0.0",
@@ -1291,6 +1323,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-webhook.png",
         "versions": [
             {
+                "version": "12.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- Fix scheduled task (#106) @crobibero\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### CI & build changes ###\n- fix: wrong name in ci workflows (#104) @h1dden-da3m0n\n- ci: migrate to centralized Plugin CI workflows (#94) @h1dden-da3m0n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/webhook/webhook_12.0.0.0.zip",
+                "checksum": "360760d637a92e88273373ba31956300",
+                "timestamp": "2024-05-11T19:15:42Z"
+            },
+            {
                 "version": "11.0.0.0",
                 "changelog": "### Code or Repo Maintenance ###\n- Fix scheduled task (#106) @crobibero\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### CI & build changes ###\n- fix: wrong name in ci workflows (#104) @h1dden-da3m0n\n- ci: migrate to centralized Plugin CI workflows (#94) @h1dden-da3m0n",
                 "targetAbi": "10.8.0.0",
@@ -1496,6 +1536,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-subtitleextract.png",
         "versions": [
             {
+                "version": "3.0.0.0",
+                "changelog": "- 10.9 (#24) @crobibero\n\n### New features and improvements ###\n- Allow for subtitles to be extracted for new media (#14) @Kakoluz\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#16) @methbkts",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/subtitle-extract/subtitle-extract_3.0.0.0.zip",
+                "checksum": "4fd85c8603fcb5a92f7abb7b83a003ee",
+                "timestamp": "2024-05-11T19:23:24Z"
+            },
+            {
                 "version": "2.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Catch exception when extracting (#1) @crobibero",
                 "targetAbi": "10.8.1.0",
@@ -1512,5 +1560,24 @@
                 "timestamp": "2022-09-08T04:43:17Z"
             }
         ]
+    },
+    {
+        "guid": "4ce89c27-d3a1-4e4b-8f5f-4bd9191c857e",
+        "name": "Discogs",
+        "description": "Get music metadata from Discogs\n",
+        "overview": "Get music metadata from Discogs",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "- 10.9 (#7) @crobibero\n- Update dependency StyleCop.Analyzers to v1.2.0-beta.556 (#1) @renovate\n- Update workflows (#3) @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/discogs/discogs_1.0.0.0.zip",
+                "checksum": "175e1fdccd21819b1f4f0e32f6d9851a",
+                "timestamp": "2024-05-11T19:28:18Z"
+            }
+        ],
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-discogs.png"
     }
 ]
