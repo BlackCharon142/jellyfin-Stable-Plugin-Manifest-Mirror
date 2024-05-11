@@ -1183,6 +1183,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anilist.png",
         "versions": [
             {
+                "version": "8.0.0.0",
+                "changelog": "- force change for 10.9 (#62) @crobibero\n- Unstable (#61) @crobibero\n\n### Bug Fixes ###\n- Fix genre settings not being applied to movies (#52) @HansLehnert",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/anilist/anilist_8.0.0.0.zip",
+                "checksum": "a348cda6e7162c908e01210812e2190d",
+                "timestamp": "2024-05-11T20:26:02Z"
+            },
+            {
                 "version": "7.0.0.0",
                 "changelog": "",
                 "targetAbi": "10.9.0.0",
