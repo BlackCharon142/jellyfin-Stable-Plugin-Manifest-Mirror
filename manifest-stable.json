@@ -544,6 +544,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-reports.png",
         "versions": [
             {
+                "version": "17.0.0.0",
+                "changelog": "- put that thing in the correct place (#85) @crobibero\n\n### Bug Fixes ###\n- add reference to SixLabors.Fonts.dll (#84) @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/reports/reports_17.0.0.0.zip",
+                "checksum": "dda70ae635dc8364f5154edae0c577af",
+                "timestamp": "2024-05-11T20:36:28Z"
+            },
+            {
                 "version": "16.0.0.0",
                 "changelog": "- 10.9 (#82) @crobibero\n\n### New features and improvements ###\n- Add XLSX Excel As Export Option (#74) @mwildgoose\n\n### Dependency updates ###\n- chore(deps): update dependency closedxml to v0.97.0 (#76) @renovate",
                 "targetAbi": "10.9.0.0",
