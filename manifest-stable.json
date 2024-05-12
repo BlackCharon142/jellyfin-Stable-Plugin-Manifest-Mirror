@@ -1778,5 +1778,31 @@
             }
         ],
         "imageUrl": ""
+    },
+    {
+        "guid": "a0444c3b-fe1c-4258-9e0f-a139fc093949",
+        "name": "Transcode Killer",
+        "description": "Kills transcoded streams.\n",
+        "overview": "Kills transcoded streams.",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "3.0.0.0",
+                "changelog": "",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/transcode-killer/transcode-killer_3.0.0.0.zip",
+                "checksum": "8099dd988580c379d0eba1a79e98acba",
+                "timestamp": "2024-05-12T01:25:13Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/transcode-killer/transcode-killer_2.0.0.0.zip",
+                "checksum": "eae7cdd6f82d1fe1b54b990cb64e64b6",
+                "timestamp": "2024-05-12T01:21:54Z"
+            }
+        ]
     }
 ]
