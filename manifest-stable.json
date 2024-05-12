@@ -1637,6 +1637,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "6.0.0.0",
+                "changelog": "- Fix 10.9 support (#34) @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/simkl/simkl_6.0.0.0.zip",
+                "checksum": "074abcfa9baa1b7879191b577b6e8f47",
+                "timestamp": "2024-05-12T19:48:56Z"
+            },
+            {
                 "version": "5.0.0.0",
                 "changelog": "- 10.9 (#32) @crobibero",
                 "targetAbi": "10.9.0.0",
