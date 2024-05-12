@@ -1680,6 +1680,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-subtitleextract.png",
         "versions": [
             {
+                "version": "4.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- Downgrade log level to reduce spam (#27) @crobibero\n- Fix extracting subtitles, fix memory leak @crobibero",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/subtitle-extract/subtitle-extract_4.0.0.0.zip",
+                "checksum": "e6076f4a618829408114b105a6a0692c",
+                "timestamp": "2024-05-12T18:22:29Z"
+            },
+            {
                 "version": "3.0.0.0",
                 "changelog": "- 10.9 (#24) @crobibero\n\n### New features and improvements ###\n- Allow for subtitles to be extracted for new media (#14) @Kakoluz\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#16) @methbkts",
                 "targetAbi": "10.9.0.0",
