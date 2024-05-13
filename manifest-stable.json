@@ -1191,6 +1191,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anilist.png",
         "versions": [
             {
+                "version": "9.0.0.0",
+                "changelog": "- Limit amount of people in metadata search result (#68) @AkaTenshi\n- Feature: Decouples VA filter from the title language, and moves to the new Anilist StaffLanguage API key (#65) @mmshivesh\n\n### Dependency updates ###\n- Update dependency AnitomySharp.NET6 to v0.5.1 (#64) @renovate",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/anilist/anilist_9.0.0.0.zip",
+                "checksum": "ab3635512a988b02e01f8f3e8ac5aa35",
+                "timestamp": "2024-05-13T13:24:15Z"
+            },
+            {
                 "version": "8.0.0.0",
                 "changelog": "- force change for 10.9 (#62) @crobibero\n- Unstable (#61) @crobibero\n\n### Bug Fixes ###\n- Fix genre settings not being applied to movies (#52) @HansLehnert",
                 "targetAbi": "10.9.0.0",
