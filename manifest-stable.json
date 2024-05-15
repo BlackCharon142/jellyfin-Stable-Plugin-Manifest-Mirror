@@ -177,6 +177,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-kodisyncqueue.png",
         "versions": [
             {
+                "version": "11.0.0.0",
+                "changelog": "- Downgrade LiteDB to 5.0.15 (#85) @oddstr13",
+                "targetAbi": "10.9.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/kodi-sync-queue/kodi-sync-queue_11.0.0.0.zip",
+                "checksum": "85e7c0ec3517841a302056b3f1210a29",
+                "timestamp": "2024-05-15T13:26:45Z"
+            },
+            {
                 "version": "10.0.0.0",
                 "changelog": "- 10.9 (#82) @crobibero\n\n### New features and improvements ###\n- Implement IDisposable (#75) @crobibero\n\n### Documentation updates ###\n- Fix openapi generation issues (#81) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency litedb to v5.0.19 (#78) @renovate",
                 "targetAbi": "10.9.0.0",
