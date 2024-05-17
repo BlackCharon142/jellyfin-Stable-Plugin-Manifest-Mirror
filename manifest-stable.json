@@ -1451,6 +1451,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-webhook.png",
         "versions": [
             {
+                "version": "14.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix AuthenticationFailureNotifier, AuthenticationSuccessNotifier (#238) @crobibero\n- Actually register hosted services (#233) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency mqttnet.extensions.managedclient to v4.3.4.1084 (#187) @renovate",
+                "targetAbi": "10.9.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/webhook/webhook_14.0.0.0.zip",
+                "checksum": "1097b179029bfc0242446efc7099f3e4",
+                "timestamp": "2024-05-17T16:51:02Z"
+            },
+            {
                 "version": "13.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Fix registering helpers during plugin initialization (#230) @crobibero",
                 "targetAbi": "10.9.1.0",
