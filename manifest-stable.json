@@ -824,6 +824,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-tvheadend.png",
         "versions": [
             {
+                "version": "12.0.0.0",
+                "changelog": "- Fixed TV Recording channel for 10.9  (#81) @lomion0815\n- Fix live stream not working with 10.9 (#80) @lomion0815\n- Update for 10.9 - Step 1 (#78) @lomion0815\n- Stop Async connection handler threads if remote host has closed the connection. (#74) @Charlese2",
+                "targetAbi": "10.9.2.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/tvheadend/tvheadend_12.0.0.0.zip",
+                "checksum": "6fd285450f7837d590e76707d95e7f76",
+                "timestamp": "2024-05-20T13:16:24Z"
+            },
+            {
                 "version": "11.0.0.0",
                 "changelog": "### New features and improvements ###\n- Added Pre-Padding and Post-Padding to settings.  (#57) @lomion0815\n\n### Bug Fixes ###\n- Fix DLNA streaming (#46) @jkellerer\n\n### Code or Repo Maintenance ###\n- Use meta ci (#55) @crobibero\n\n### CI & build changes ###\n- fix: meta ci workflows (#56) @h1dden-da3m0n\n- Use meta ci (#55) @crobibero",
                 "targetAbi": "10.8.0.0",
