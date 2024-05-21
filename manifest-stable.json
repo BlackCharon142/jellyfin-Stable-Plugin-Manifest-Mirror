@@ -351,6 +351,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-nextpvr.png",
         "versions": [
             {
+                "version": "9.0.0.0",
+                "changelog": "- Initial changes for 10.9.1 (#48) @emveepee\n\n### CI & build changes ###\n- fix: meta ci workflows (#41) @h1dden-da3m0n",
+                "targetAbi": "10.9.2.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/nextpvr/nextpvr_9.0.0.0.zip",
+                "checksum": "8be758d457b5fd4a1628659f3f38c321",
+                "timestamp": "2024-05-21T21:09:33Z"
+            },
+            {
                 "version": "8.0.0.0",
                 "changelog": "### Code or Repo Maintenance ###\n- More  changes for 10.8 beta (#39) @emveepee\n- Use meta ci (#36) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#36) @crobibero",
                 "targetAbi": "10.8.0.0",
