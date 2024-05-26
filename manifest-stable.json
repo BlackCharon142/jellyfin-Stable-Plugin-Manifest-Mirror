@@ -1846,8 +1846,17 @@
         "description": "Adds DLNA capability to Jellyfin\n",
         "overview": "DLNA Service",
         "owner": "jellyfin",
-        "category": "Notifications",
+        "category": "General",
+        "imageUrl": "",
         "versions": [
+            {
+                "version": "2.0.0.0",
+                "changelog": "- Fixed ListenToSocketInternal so it works after Jellyfin 10.9.2 (#51) @ms-afk\n\n### Dependency updates ###\n- Update dependency Microsoft.AspNetCore.Authorization to v8.0.5 (#47) @renovate\n- Update dependency Microsoft.AspNetCore.Authorization to v8.0.4 (#37) @renovate",
+                "targetAbi": "10.9.2.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/dlna/dlna_2.0.0.0.zip",
+                "checksum": "2d5352445ed378318fee7aec39e12d15",
+                "timestamp": "2024-05-26T20:40:15Z"
+            },
             {
                 "version": "1.0.0.0",
                 "changelog": "",
@@ -1856,8 +1865,7 @@
                 "checksum": "0c8214c6350767f03de192602916313f",
                 "timestamp": "2024-05-11T20:08:01Z"
             }
-        ],
-        "imageUrl": ""
+        ]
     },
     {
         "guid": "a0444c3b-fe1c-4258-9e0f-a139fc093949",
