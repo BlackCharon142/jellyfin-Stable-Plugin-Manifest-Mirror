@@ -907,6 +907,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "1.5.0.0",
+                "changelog": "Added support for Jellyfin 10.9.\n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.5.0/InfuseSync-jellyfin-1.5.0.zip",
+                "checksum": "d06fc07571c1a21a53a6d3f74a018ba7",
+                "timestamp": "2024-05-28T04:00:00Z"
+            },
+            {
                 "version": "1.4.2.0",
                 "changelog": "Added support for Jellyfin 10.8.\n",
                 "targetAbi": "10.8.0.0",
