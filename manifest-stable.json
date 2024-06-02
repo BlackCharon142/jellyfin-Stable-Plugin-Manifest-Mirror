@@ -1172,6 +1172,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anidb.png",
         "versions": [
             {
+                "version": "9.0.0.0",
+                "changelog": "- Map tag \"18 restricted\" to parental rating NC-17 (#48) @nalsai\n- Strip the year from the name for finding matches (#55) @nalsai\n- Add n-apostrophe replacement (#56) @nalsai\n- Add wo replacement (#57) @nalsai",
+                "targetAbi": "10.9.4.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/anidb/anidb_9.0.0.0.zip",
+                "checksum": "d01c8da806aae5e0f65d96552e4063e4",
+                "timestamp": "2024-06-02T14:10:34Z"
+            },
+            {
                 "version": "8.0.0.0",
                 "changelog": "- 10.9 (#64) @crobibero\n\n### New features and improvements ###\n- Make series.xml cache age user configurable (#44) @Scholars-Mate\n\n### Bug Fixes ###\n- Detect api errors and throw exception (#42) @nalsai\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#62) @methbkts",
                 "targetAbi": "10.9.0.0",
