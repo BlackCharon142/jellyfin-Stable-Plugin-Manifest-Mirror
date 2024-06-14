@@ -351,6 +351,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-nextpvr.png",
         "versions": [
             {
+                "version": "11.0.0.0",
+                "changelog": "- Recording enhancements (#53) @emveepee",
+                "targetAbi": "10.9.6.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/nextpvr/nextpvr_11.0.0.0.zip",
+                "checksum": "01b5fd627eb01c546f2e324a38179709",
+                "timestamp": "2024-06-14T13:39:12Z"
+            },
+            {
                 "version": "10.0.0.0",
                 "changelog": "- Allow dynamic recording URLs (#49) @emveepee",
                 "targetAbi": "10.9.2.0",
