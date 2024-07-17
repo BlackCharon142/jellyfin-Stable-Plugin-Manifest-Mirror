@@ -501,6 +501,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-playbackreporting.png",
         "versions": [
             {
+                "version": "15.0.0.0",
+                "changelog": "- Added horizontal scrolling to all report pages (#85) @meister-eder\n\n### Bug Fixes ###\n- Use LastUpdated Time Instead of Current Time for missing Stop event (#87) @speatzle",
+                "targetAbi": "10.9.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/playback-reporting/playback-reporting_15.0.0.0.zip",
+                "checksum": "7f37c9f0062537880fbe42dce7715bf4",
+                "timestamp": "2024-07-17T17:06:50Z"
+            },
+            {
                 "version": "14.0.0.0",
                 "changelog": "- 10.9 (#82) @crobibero\n\n### New features and improvements ###\n- Order default query usefully & checkbox by default (#66) @michaelkrieger\n\n### Bug Fixes ###\n- Fix DirectoryBrowser (#76) @MBR-0001",
                 "targetAbi": "10.9.0.0",
