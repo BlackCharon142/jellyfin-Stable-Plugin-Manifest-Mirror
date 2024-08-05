@@ -1081,6 +1081,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-tvdb.png",
         "versions": [
             {
+                "version": "14.0.0.0",
+                "changelog": "### Major features and improvements ###\n- Add Movie support (#164) @scampower3\n\n### New features and improvements ###\n- Add support for movie and season for check for metadata update task. Add additional configurations. (#169) @scampower3\n- Season support with extended season client (#165) @scampower3\n- Add Tvdb Collection Ids (#162) @scampower3\n\n### Bug Fixes ###\n- Fix movie remote id ProviderName  (#167) @scampower3\n- Skip Characters with person name is null / Handle null RemoteIds (#160) @scampower3\n- Add season url (#161) @scampower3\n- Add option to fallback to original language (#156) @scampower3\n\n### Dependency updates ###\n- Update dependency Tvdb.Sdk to v4.7.10 (#158) @renovate",
+                "targetAbi": "10.9.9.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/thetvdb/thetvdb_14.0.0.0.zip",
+                "checksum": "29985fb6c99b25dc177380eee5158c69",
+                "timestamp": "2024-08-05T13:22:09Z"
+            },
+            {
                 "version": "13.0.0.0",
                 "changelog": "- Simplify Series Handling in Missing Episode Provider (#151) @scampower3\n- Use official instead of default (#149) @scampower3\n\n### Bug Fixes ###\n- Fix Specials being added during season refresh when IncludeMissingSpecials is disabled (#152) @scampower3\n- Set DeleteFileLocation = false (#153) @scampower3\n- Fix Language mapping for unique cases (#145) @scampower3\n- Get season id according to selected display order. (#147) @scampower3",
                 "targetAbi": "10.9.5.0",
