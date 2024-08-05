@@ -1696,6 +1696,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "4.0.0.0",
+                "changelog": "- Fixes for Jellyfin 10.9.9 (#21) @crobibero",
+                "targetAbi": "10.9.9.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/session-cleaner/session-cleaner_4.0.0.0.zip",
+                "checksum": "d47e1eb912fdd346501b1d2079494ba6",
+                "timestamp": "2024-08-05T13:39:43Z"
+            },
+            {
                 "version": "3.0.0.0",
                 "changelog": "- 10.9 (#19) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#17) @methbkts\n- chore(deps): bump StyleCop.Analyzers from 1.2.0-beta.406 to 1.2.0-beta.435 (#11) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump StyleCop.Analyzers from 1.2.0-beta.406 to 1.2.0-beta.435 (#11) @dependabot\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#14) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#12) @h1dden-da3m0n",
                 "targetAbi": "10.9.0.0",
