@@ -193,6 +193,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-kodisyncqueue.png",
         "versions": [
             {
+                "version": "12.0.0.0",
+                "changelog": "- 10.10 support (#97) @crobibero",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/kodi-sync-queue/kodi-sync-queue_12.0.0.0.zip",
+                "checksum": "5f749b6e1c279294d06da8264eb2f6d2",
+                "timestamp": "2024-10-26T18:44:35Z"
+            },
+            {
                 "version": "11.0.0.0",
                 "changelog": "- Downgrade LiteDB to 5.0.15 (#85) @oddstr13",
                 "targetAbi": "10.9.1.0",
@@ -1310,6 +1318,14 @@
         "category": "Metadata",
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anilist.png",
         "versions": [
+            {
+                "version": "10.0.0.0",
+                "changelog": "- Support for retreiving Person metadata (#75) @HansLehnert\n\n### Dependency updates ###\n- Update dotnet monorepo to 8.0.1 (#80) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/anilist/anilist_10.0.0.0.zip",
+                "checksum": "958d69fa904b6a7cf4f75d429be9ea79",
+                "timestamp": "2024-10-26T18:44:42Z"
+            },
             {
                 "version": "9.0.0.0",
                 "changelog": "- Limit amount of people in metadata search result (#68) @AkaTenshi\n- Feature: Decouples VA filter from the title language, and moves to the new Anilist StaffLanguage API key (#65) @mmshivesh\n\n### Dependency updates ###\n- Update dependency AnitomySharp.NET6 to v0.5.1 (#64) @renovate",
