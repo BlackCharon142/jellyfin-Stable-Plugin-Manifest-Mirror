@@ -733,6 +733,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-trakt.png",
         "versions": [
             {
+                "version": "26.0.0.0",
+                "changelog": "- 10.10 support (#238) @crobibero\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to v8 (#187) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/trakt/trakt_26.0.0.0.zip",
+                "checksum": "222b61706a4b56adde19e81c359b9342",
+                "timestamp": "2024-10-26T18:15:06Z"
+            },
+            {
                 "version": "25.0.0.0",
                 "changelog": "- 10.9 (#233) @crobibero\n\n### Dependency updates ###\n- Update dependency StyleCop.Analyzers to v1.2.0-beta.556 (#214) @renovate",
                 "targetAbi": "10.9.0.0",
@@ -1559,8 +1567,8 @@
                 "changelog": "- Fix test badge typo (#257) @RyanMelena\n- Fix test status badge (#256) @RyanMelena\n- Make \"Original Aspect Ratio\" property available to WebHooks (#249) @RyanMelena\n\n### Breaking changes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Bug Fixes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Dependency updates ###\n- chore(deps): update dependency mailkit to v4.7.0 (#174) @renovate\n- chore(deps): update dependency mqttnet.extensions.managedclient to v4.3.6.1152 (#246) @renovate",
                 "targetAbi": "10.9.7.0",
                 "sourceUrl": "https://repo.jellyfin.org/files/plugin/webhook/webhook_15.0.0.0.zip",
-                "checksum": "d27ef505574e3c012444ca64d43cf47a",
-                "timestamp": "2024-07-03T12:47:16Z"
+                "checksum": "0def08b5a1709aa4c4edec45c71f26fb",
+                "timestamp": "2024-10-26T18:18:20Z"
             },
             {
                 "version": "14.0.0.0",
@@ -1994,6 +2002,24 @@
                 "sourceUrl": "https://repo.jellyfin.org/files/plugin/transcode-killer/transcode-killer_2.0.0.0.zip",
                 "checksum": "eae7cdd6f82d1fe1b54b990cb64e64b6",
                 "timestamp": "2024-05-12T01:21:54Z"
+            }
+        ]
+    },
+    {
+        "guid": "698b6f33-14ca-49b5-9d79-fc3c0ab941f5",
+        "name": "Chapter Segments Provider",
+        "description": "Create media segments based on chapters.\n",
+        "overview": "Create media segments based on chapters.",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "3.0.0.0",
+                "changelog": "",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/chapter-segments-provider/chapter-segments-provider_3.0.0.0.zip",
+                "checksum": "04c5162ab035f72fc52fb678aa75a9e0",
+                "timestamp": "2024-10-26T18:20:41Z"
             }
         ]
     }
