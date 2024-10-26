@@ -8,6 +8,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "12.0.0.0",
+                "changelog": "- Fix nullability for 10.10 (#116) @crobibero\n- Update opf and add ISBN (#108) @AshleyDeo\n- Add Comic Vine Person provider (#85) @Pithaya\n\n### New features and improvements ###\n- Add support for covers from .cbt, .cb7 and .cbr (#112) @oddstr13\n\n### Dependency updates ###\n- Update dependency Microsoft.NET.Test.Sdk to 17.11.1 (#106) @renovate\n- Update xunit-dotnet monorepo (#84) @renovate\n- Update dependency Microsoft.Extensions.Http to 8.0.1 - autoclosed (#115) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/bookshelf/bookshelf_12.0.0.0.zip",
+                "checksum": "973b5e8fda39304a04bbe53011c0aedd",
+                "timestamp": "2024-10-26T17:57:49Z"
+            },
+            {
                 "version": "11.0.0.0",
                 "changelog": "- Unstable (#103) @crobibero\n- Improve cover image extraction from epub files (#102) @unfedorg\n\n### Dependency updates ###\n- Update dependency coverlet.collector to v6.0.2 (#101) @renovate\n- Update dependency coverlet.collector to v6.0.1 (#98) @renovate",
                 "targetAbi": "10.9.0.0",
@@ -1661,6 +1669,14 @@
         "category": "General",
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-opds.png",
         "versions": [
+            {
+                "version": "6.0.0.0",
+                "changelog": "- 10.10 fixes (#44) @crobibero\n\n### New features and improvements ###\n- Add more descriptive feed name (#25) @crobibero\n\n### Bug Fixes ###\n- fix: Support different query parameter names in search (#41) @rluetzner\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.556 - autoclosed (#34) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/opds/opds_6.0.0.0.zip",
+                "checksum": "182d6e847b8632af968f2bfea728c541",
+                "timestamp": "2024-10-26T18:10:14Z"
+            },
             {
                 "version": "5.0.0.0",
                 "changelog": "- 10.9 (#39) @crobibero\n\n### New features and improvements ###\n- Set Content-Disposition header when downloading book (#24) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#36) @methbkts\n- Minor update to include authenticated feeds. (#21) @adamshand\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#30) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#28) @h1dden-da3m0n",
