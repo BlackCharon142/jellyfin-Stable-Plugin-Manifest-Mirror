@@ -1970,6 +1970,14 @@
         "imageUrl": "",
         "versions": [
             {
+                "version": "4.0.0.0",
+                "changelog": "- Fixes for 10.10 (#84) @crobibero\n- Standardize bind IPs in ssdp and dlnahost (#82) @disgustipated\n- Revert lg profile friendly name (#77) @disgustipated\n- Add baseurl to descriptoruri (#75) @disgustipated\n\n### Dependency updates ###\n- Update dotnet monorepo (#79) @renovate",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/dlna/dlna_4.0.0.0.zip",
+                "checksum": "c4cfe0a8b24f1a60224b4dec56b380a8",
+                "timestamp": "2024-10-27T13:15:22Z"
+            },
+            {
                 "version": "3.0.0.0",
                 "changelog": "- restore video transcoding (#68) @flashka07\n- Update dependency Microsoft.AspNetCore.Authorization to v8.0.8 (#54) @renovate\n- Set publisher uri to http (#62) @disgustipated\n- Remove . from friendlyname for identifying LG TVs (#60) @disgustipated",
                 "targetAbi": "10.9.10.0",
