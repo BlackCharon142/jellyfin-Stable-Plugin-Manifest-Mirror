@@ -2017,8 +2017,8 @@
         "name": "LrcLib",
         "description": "Download lyrics from https://lrclib.net/\n",
         "overview": "Download lyrics from https://lrclib.net/",
-        "owner": "crobibero",
-        "category": "Notifications",
+        "owner": "jellyfin",
+        "category": "Metadata",
         "versions": [
             {
                 "version": "2.0.0.0",
